@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "postinstall": "prisma generate",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -30,7 +31,6 @@
     "zustand": "^4.4.1"
   },
   "devDependencies": {
-    "@netlify/plugin-nextjs": "^4.37.2",
     "@types/bcrypt": "^5.0.0",
     "prisma": "^5.3.1"
   }
