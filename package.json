@@ -30,6 +30,7 @@
     "zustand": "^4.4.1"
   },
   "devDependencies": {
+    "@netlify/plugin-nextjs": "^4.36.1",
     "@types/bcrypt": "^5.0.0",
     "prisma": "^5.3.1"
   }
